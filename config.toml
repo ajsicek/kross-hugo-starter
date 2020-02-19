@@ -5,6 +5,11 @@ summaryLength = "10"
 theme = "kross-hugo"
 title = "Kross | Hugo Portfolio Template"
 
+[context.production.environment]
+HUGO_VERSION = "0.59"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
 # css plugins
 [[params.plugins.css]]
 URL = "plugins/bootstrap/bootstrap.min.css"
